@@ -24,8 +24,7 @@ install:
 defaults:
   script:
     #   ## print all Travis environment variables for debugging
-    - echo "npm test temporarily disabled"
-    - npm run start:ci &
+    - npm run start:ci
     - npm run cy:run
     # after all tests finish running we need
     # to kill all background jobs (like "npm start &")
