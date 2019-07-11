@@ -18,7 +18,7 @@ cache:
     - ~/.cache
 install:
     - npm ci
-    - npm run cy:verify
+    #- npm run cy:verify
 
 defaults:
   script:

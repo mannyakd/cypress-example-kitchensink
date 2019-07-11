@@ -14,7 +14,7 @@
     "start:ci:windows": "serve --no-clipboard --listen 8080",
     "dev": "npm start",
     "types": "tsc --noEmit",
-    "test": "npm start & cypress run",
+    "test": "cypress run",
     "pretest": "npm run lint && npm run types",
     "print-env": "print-env",
     "lint": "eslint --fix cypress/**/*.js app/assets/js/scripts.js",
